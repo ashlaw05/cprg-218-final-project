@@ -2,8 +2,14 @@
 	box-sizing: border-box;
 }
 
+
 header {
     text-align: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 #Navbar {
@@ -24,13 +30,82 @@ header {
     background-color: rgb(222, 217, 217);
     padding: 1rem;
 
+
     hr.rounded {
         border-top: 4px solid black;
         border-radius: 2pc;
         margin: 1rem;
     }
     
+    img{
+        border-radius: 20px;
+        max-width: 100%;
+        height: auto;
+    }
 }
+
+#activites {
+    background-color: rgb(222, 217, 217);
+    margin: 0;
+    padding: 1rem;
+
+    img {
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#food {
+    background-color: rgb(222, 217, 217);
+    margin: 0;
+    padding: 1rem;
+
+    img {
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#room {
+    background-color: rgb(222, 217, 217);
+    margin: 0;
+    padding: 1rem;
+
+    img {
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#spa {
+    background-color: rgb(222, 217, 217);
+    margin: 0;
+    padding: 1rem;
+
+    img {
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#reviews {
+    background-color: rgb(222, 217, 217);
+    margin: 0;
+    padding: 1rem;
+}
+
 
 footer {
     background-color: rgb(78, 16, 103);
