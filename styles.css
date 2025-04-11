@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -12,7 +14,7 @@ header {
     }
 }
 
-#Navbar {
+nav {
     background-color: rgb(78, 16, 103);
     display: flex;
     padding: 1rem;
@@ -23,6 +25,7 @@ header {
         text-decoration: none;
     }
 }
+
 
 #Moments {
     text-align: center;
@@ -127,4 +130,40 @@ footer {
     color: white;
     text-align: center;
     padding: 0.2rem;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    button {
+        display: block;
+        font-size: large;
+        padding: 5px;
+        background-color: rgb(78, 16, 103);
+        color: white;
+    }
+
+    nav {
+        background-color: rgb(78, 16, 103);
+        flex-direction: column;
+        position: absolute;
+        z-index: 100;
+        display: none;
+        width: 50%;
+        left: 0%;
+        top: 30%
+        
+    }
+
+    nav.active{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: larger;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        margin-right: 0;
 }

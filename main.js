@@ -1,6 +1,5 @@
 const navToggle = document.getElementById('nav-toggle');
-const Navbar = document.getElementById('Navbar');
-
+const menuList = document.getElementById('Navbar');
 navToggle.addEventListener('click', function(){
-    Navbar.classList.toggle('active');
+    menuList.classList.toggle('active');
 });
