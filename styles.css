@@ -26,11 +26,20 @@ nav {
     }
 }
 
+main{
+    background-color: rgb(222, 217, 217);
+    
+}
+
+hr.rounded {
+    border-top: 4px solid black;
+    border-radius: 2pc;
+    margin: 1rem;
+}
 
 #Moments {
     text-align: center;
-    margin: 0;
-    background-color: rgb(222, 217, 217);
+    margin: 1rem;
     padding: 1rem;
 
     a {
@@ -39,12 +48,6 @@ nav {
         font-weight: bold;
     }
 
-    hr.rounded {
-        border-top: 4px solid black;
-        border-radius: 2pc;
-        margin: 1rem;
-    }
-    
     img{
         border-radius: 20px;
         max-width: 100%;
@@ -52,8 +55,10 @@ nav {
     }
 }
 
-
 #Guests {
+    background-color: rgb(187, 184, 190);
+    margin: 1rem;
+    padding: 1rem;
     a {
         color: rgb(78, 16, 103);
         text-decoration: none;
@@ -76,6 +81,12 @@ nav {
     }
 }
 
+#Booking {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
+}
+
 #food {
     background-color: rgb(222, 217, 217);
     margin: 0;
@@ -88,6 +99,12 @@ nav {
         max-width: 100%;
         height: auto;
     }
+}
+
+#dining {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
 }
 
 #room {
@@ -104,6 +121,12 @@ nav {
     }
 }
 
+#accessible {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
+}
+
 #spa {
     background-color: rgb(222, 217, 217);
     margin: 0;
@@ -118,12 +141,41 @@ nav {
     }
 }
 
-#reviews {
-    background-color: rgb(222, 217, 217);
-    margin: 0;
-    padding: 1rem;
+#notes {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
 }
 
+#review1 {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
+}
+
+#review2 {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
+}
+
+#review3 {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
+}
+
+#review4 {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
+}
+
+#review5 {
+    background-color: rgb(187, 184, 190);
+    padding:1rem;
+    margin: 1rem;
+}
 
 footer {
     background-color: rgb(78, 16, 103);
@@ -132,7 +184,9 @@ footer {
     padding: 0.2rem;
 }
 
-
+button {
+    display: none;
+}
 
 @media screen and (max-width: 650px) {
     button {
@@ -166,4 +220,4 @@ footer {
         display: block;
         text-align: center;
         margin-right: 0;
-}
+    }
